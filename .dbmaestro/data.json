@@ -5,7 +5,26 @@
         "ProjectId": "373586d4-e424-4b2a-b5bc-c8cc9b934091",
         "ProjectName": "sql",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "d56ad84e-c2b7-4c66-b648-88f84d235862",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "a0710b55-3813-4f33-a1bd-d3e160d73aca",
+                "DatabaseAliasName": "db1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon/sql_db1_jan_24.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -32,7 +51,30 @@
       "UserData": [
         {
           "UserName": "roylauzon",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "a0710b55-3813-4f33-a1bd-d3e160d73aca",
+              "DatabaseAliasName": "db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "localhost",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "sc_jan_24_db_1",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon",
+                "Password": "03391sIZZqBS9y/BwdWRER8bIdY2qTYsM/J2jz9Ys2e1b+GnlnKx/itVOQgu588d"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
