@@ -141,7 +141,7 @@
                     "port": "1521",
                     "identifierType": "SID",
                     "identifier": "xe",
-                    "userName": "system",
+                    "userName": "SC",
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
                 },
