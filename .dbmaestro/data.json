@@ -85,7 +85,26 @@
         "ProjectId": "e1336e5c-ee9a-465b-9fa5-edda489464b4",
         "ProjectName": "Ora1",
         "DBTypeName": "Oracle",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "0d68f48b-3c3e-4482-a8c2-2ce40d3a638e",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "0431099d-1477-47af-a45c-7c6014374887",
+                "DatabaseAliasName": "ora_db1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/roylauzon/SC_ORA_DB1.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -108,7 +127,31 @@
       "UserData": [
         {
           "UserName": "roylauzon",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "0431099d-1477-47af-a45c-7c6014374887",
+              "DatabaseAliasName": "ora_db1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SID",
+                    "identifier": "xe",
+                    "userName": "system",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": {
+                "UserName": "roylauzon",
+                "Password": "QxJ+DAIF/7ihZVC9RWzRLXUhuKn0iNKBPOxbgWUmkKz3m2SxVk7KeKmLKkmfKZBLLBKQQ7Kqj2HqIq9kVgg9aCi2fxEWqjoUz1qXQUOsZWl0XCNT5IrZ86nKT841IUk8"
+              }
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
