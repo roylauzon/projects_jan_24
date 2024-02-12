@@ -144,6 +144,18 @@
                     "userName": "system",
                     "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
                   }
+                },
+                {
+                  "BranchName": "temp_branch",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "localhost",
+                    "port": "1521",
+                    "identifierType": "SID",
+                    "identifier": "xe",
+                    "userName": "system",
+                    "Password": "3Gb0hbYzmDIwRNmEt2GLYw=="
+                  }
                 }
               ],
               "RepositoryCredentials": {
