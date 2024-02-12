@@ -79,6 +79,40 @@
       ],
       "DatabasesStaticDataObjects": null,
       "DatabasesScopeObjects": null
+    },
+    {
+      "GlobalData": {
+        "ProjectId": "e1336e5c-ee9a-465b-9fa5-edda489464b4",
+        "ProjectName": "Ora1",
+        "DBTypeName": "Oracle",
+        "Environments": null,
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {}
+          },
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "NumberOfDaysBuildByTaskIsRelevant": 30,
+          "PreventCommitObjectWithConflict": false,
+          "SaveObjectScopeAtProjectLevel": null,
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
+        },
+        "ProjectArchitecture": 0,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "roylauzon",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null,
+      "DatabasesScopeObjects": null
     }
   ],
   "GlobalConfigurations": null,
